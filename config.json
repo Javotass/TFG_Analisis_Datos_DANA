@@ -1,0 +1,22 @@
+{
+    "fecha_inicio": "01/09/2024",
+    "fecha_fin": "15/11/2024",
+    "variables": [
+        "2m_temperature",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "total_precipitation",
+        "surface_pressure"
+    ],
+    "area": {
+        "nombre": "Comunidad Valenciana",
+        "norte": 40.90,
+        "oeste": -1.90,
+        "sur": 37.80,
+        "este": 0.90
+    },
+    "horas": ["00:00", "12:00"],
+    "output_folder": "datos",
+    "graficos_folder": "graficos",
+    "archivo_entrada": "datos/era5_land_20240901_20241115.nc"
+}

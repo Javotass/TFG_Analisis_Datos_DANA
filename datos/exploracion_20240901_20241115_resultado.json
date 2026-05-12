@@ -1,0 +1,190 @@
+{
+    "configuracion_origen": "config.json",
+    "archivo_datos": "datos/era5_land_20240901_20241115.nc",
+    "fecha_analisis": "2026-05-01 15:31:03",
+    "periodo": {
+        "fecha_inicio": "01/09/2024",
+        "fecha_fin": "15/11/2024"
+    },
+    "area": {
+        "nombre": "Comunidad Valenciana",
+        "norte": 40.9,
+        "oeste": -1.9,
+        "sur": 37.8,
+        "este": 0.9
+    },
+    "dimensiones": {
+        "valid_time": 182,
+        "latitude": 32,
+        "longitude": 29
+    },
+    "variables": {
+        "t2m": {
+            "nombre": "2 metre temperature",
+            "unidades": "K",
+            "dimensiones": [
+                "valid_time",
+                "latitude",
+                "longitude"
+            ]
+        },
+        "u10": {
+            "nombre": "10 metre U wind component",
+            "unidades": "m s**-1",
+            "dimensiones": [
+                "valid_time",
+                "latitude",
+                "longitude"
+            ]
+        },
+        "v10": {
+            "nombre": "10 metre V wind component",
+            "unidades": "m s**-1",
+            "dimensiones": [
+                "valid_time",
+                "latitude",
+                "longitude"
+            ]
+        },
+        "tp": {
+            "nombre": "Total precipitation",
+            "unidades": "m",
+            "dimensiones": [
+                "valid_time",
+                "latitude",
+                "longitude"
+            ]
+        },
+        "sp": {
+            "nombre": "Surface pressure",
+            "unidades": "Pa",
+            "dimensiones": [
+                "valid_time",
+                "latitude",
+                "longitude"
+            ]
+        }
+    },
+    "coordenadas": {
+        "latitud_min": 37.8,
+        "latitud_max": 40.9,
+        "longitud_min": -1.9,
+        "longitud_max": 0.9,
+        "tiempo_inicio": "2024-09-01",
+        "tiempo_fin": "2024-11-30",
+        "total_registros": 182
+    },
+    "estadisticas": {
+        "temperatura_2m": {
+            "unidad": "°C",
+            "media": 16.39,
+            "minima": 5.92,
+            "maxima": 26.88,
+            "desviacion_estandar": 4.7
+        },
+        "velocidad_viento_10m": {
+            "unidad": "m/s",
+            "media": 2.54,
+            "minima": 0.79,
+            "maxima": 6.44,
+            "desviacion_estandar": 1.15
+        },
+        "precipitacion": {
+            "unidad": "mm",
+            "media": 2.218,
+            "minima": 0.0001,
+            "maxima": 39.9787,
+            "total_acumulado": 245026.36
+        },
+        "presion_superficial": {
+            "unidad": "hPa",
+            "media": 935.64,
+            "minima": 923.44,
+            "maxima": 944.63,
+            "desviacion_estandar": 4.46
+        }
+    },
+    "valores_faltantes": {
+        "t2m": {
+            "cantidad": 58422,
+            "total": 168896,
+            "porcentaje": 34.59
+        },
+        "u10": {
+            "cantidad": 58422,
+            "total": 168896,
+            "porcentaje": 34.59
+        },
+        "v10": {
+            "cantidad": 58422,
+            "total": 168896,
+            "porcentaje": 34.59
+        },
+        "tp": {
+            "cantidad": 58422,
+            "total": 168896,
+            "porcentaje": 34.59
+        },
+        "sp": {
+            "cantidad": 58422,
+            "total": 168896,
+            "porcentaje": 34.59
+        }
+    },
+    "graficos_generados": [
+        "graficos\\series_temporales\\serie_temperatura.svg",
+        "graficos\\series_temporales\\serie_viento.svg",
+        "graficos\\series_temporales\\serie_precipitacion.svg",
+        "graficos\\series_temporales\\serie_presion.svg",
+        "graficos\\mapas\\mapa_temperatura.svg",
+        "graficos\\mapas\\mapa_viento.svg",
+        "graficos\\mapas\\mapa_precipitacion.svg",
+        "graficos\\mapas\\mapa_presion.svg",
+        "graficos\\mapas\\mapa_animado_temperatura.html",
+        "graficos\\mapas\\mapa_animado_precipitacion.html",
+        "graficos\\mapas\\mapa_animado_presion.html",
+        "graficos\\mapas\\mapa_animado_viento.html",
+        [
+            "graficos\\distribuciones\\distribucion_temperatura.svg",
+            "graficos\\distribuciones\\distribucion_viento.svg",
+            "graficos\\distribuciones\\distribucion_precipitacion.svg",
+            "graficos\\distribuciones\\distribucion_presion.svg"
+        ],
+        "graficos\\correlaciones\\correlacion_variables.svg",
+        "graficos\\ciclo_mensual\\ciclo_mensual_temperatura.svg",
+        "graficos\\ciclo_mensual\\ciclo_mensual_viento.svg",
+        "graficos\\ciclo_mensual\\ciclo_mensual_precipitacion.svg",
+        "graficos\\ciclo_mensual\\ciclo_mensual_presion.svg"
+    ],
+    "archivos_exportados": [
+        "datos/variables_meteorologicas_20240901_20241115.csv"
+    ],
+    "correlaciones": {
+        "Temperatura": {
+            "Temperatura": 1.0,
+            "Velocidad Viento": 0.23707960512583703,
+            "Precipitación": -0.08308019619229344,
+            "Presión": -0.4119731651196684
+        },
+        "Velocidad Viento": {
+            "Temperatura": 0.23707960512583703,
+            "Velocidad Viento": 1.0,
+            "Precipitación": 0.031086428523310384,
+            "Presión": -0.4866565540766567
+        },
+        "Precipitación": {
+            "Temperatura": -0.08308019619229344,
+            "Velocidad Viento": 0.031086428523310384,
+            "Precipitación": 1.0,
+            "Presión": -0.1416242030486332
+        },
+        "Presión": {
+            "Temperatura": -0.4119731651196684,
+            "Velocidad Viento": -0.4866565540766567,
+            "Precipitación": -0.1416242030486332,
+            "Presión": 1.0
+        }
+    },
+    "estado": "completado",
+    "fecha_finalizacion": "2026-05-01 15:31:15"
+}

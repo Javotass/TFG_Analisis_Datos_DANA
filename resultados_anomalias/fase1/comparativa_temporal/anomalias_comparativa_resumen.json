@@ -1,0 +1,34 @@
+{
+  "sp": {
+    "if_temporal": 10,
+    "fod_temporal": 4,
+    "autoencoder_temporal": 10,
+    "union_total": 19,
+    "anomalias_absolutas": 1,
+    "porcentaje_absolutas_sobre_union": 5.263
+  },
+  "t2m": {
+    "if_temporal": 10,
+    "fod_temporal": 4,
+    "autoencoder_temporal": 10,
+    "union_total": 19,
+    "anomalias_absolutas": 1,
+    "porcentaje_absolutas_sobre_union": 5.263
+  },
+  "tp": {
+    "if_temporal": 10,
+    "fod_temporal": 7,
+    "autoencoder_temporal": 10,
+    "union_total": 17,
+    "anomalias_absolutas": 1,
+    "porcentaje_absolutas_sobre_union": 5.882
+  },
+  "wind_speed": {
+    "if_temporal": 10,
+    "fod_temporal": 4,
+    "autoencoder_temporal": 10,
+    "union_total": 17,
+    "anomalias_absolutas": 2,
+    "porcentaje_absolutas_sobre_union": 11.765
+  }
+}

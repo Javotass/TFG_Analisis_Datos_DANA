@@ -1,0 +1,29 @@
+{
+    "configuracion_origen": "config.json",
+    "fecha_inicio": "01/09/2024",
+    "fecha_fin": "15/11/2024",
+    "total_dias": 76,
+    "variables": [
+        "2m_temperature",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "total_precipitation",
+        "surface_pressure"
+    ],
+    "area": {
+        "nombre": "Comunidad Valenciana",
+        "norte": 40.9,
+        "oeste": -1.9,
+        "sur": 37.8,
+        "este": 0.9
+    },
+    "horas": [
+        "00:00",
+        "12:00"
+    ],
+    "archivo_salida": "datos/era5_land_20240901_20241115.nc",
+    "estado": "completado",
+    "timestamp_inicio": "2026-04-10 13:02:57",
+    "timestamp_fin": "2026-04-10 13:05:51",
+    "tamano_archivo_mb": 1.32
+}

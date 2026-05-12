@@ -1,0 +1,29 @@
+{
+    "configuracion_origen": "config.json",
+    "fecha_inicio": "21/09/2004",
+    "fecha_fin": "02/11/2004",
+    "total_dias": 43,
+    "variables": [
+        "2m_temperature",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "total_precipitation",
+        "surface_pressure"
+    ],
+    "area": {
+        "nombre": "España",
+        "norte": 43.8,
+        "oeste": -9.3,
+        "sur": 36.0,
+        "este": 3.3
+    },
+    "horas": [
+        "00:00",
+        "12:00"
+    ],
+    "archivo_salida": "datos/era5_land_20040921_20041102.nc",
+    "estado": "completado",
+    "timestamp_inicio": "2026-02-06 09:33:37",
+    "timestamp_fin": "2026-02-06 09:36:35",
+    "tamano_archivo_mb": 12.22
+}
