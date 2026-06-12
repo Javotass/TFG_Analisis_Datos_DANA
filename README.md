@@ -109,7 +109,15 @@ python deteccion_anomalias_fase1.py
 
 Ejecuta los cinco algoritmos de detección y guarda los resultados en `resultados_anomalias/fase1/`.
 
-### 5. Demo con datos sintéticos (opcional)
+### 5. Análisis de concordancia entre métodos (opcional)
+
+```bash
+python calcular_concordancia_metodos.py
+```
+
+Calcula el índice de Jaccard y la kappa de Cohen por par de métodos (IF, FOD, Autoencoder) y variable, sobre los 182 timesteps completos. Imprime la tabla en consola y guarda los resultados en `resultados_anomalias/fase1/comparativa_temporal/concordancia_metodos.json`.
+
+### 6. Demo con datos sintéticos (opcional)
 
 ```bash
 python ejemplo_fase1.py
@@ -130,6 +138,7 @@ TFG_Analisis_Datos-main/
 ├── descarga_era5.py                   # Descarga via API Copernicus CDS
 ├── exploracion_era5.py                # Análisis exploratorio completo
 ├── deteccion_anomalias_fase1.py       # Ejecución de los cinco detectores
+├── calcular_concordancia_metodos.py   # Jaccard y kappa de Cohen entre métodos temporales
 ├── ejemplo_fase1.py                   # Demo con datos sintéticos
 │
 ├── datos/                             # NetCDF descargados + CSV/JSON de resultados
@@ -206,6 +215,7 @@ Se implementan cinco algoritmos con dos perspectivas: **espacial** (¿qué zonas
 - Mapas y series de anomalías por algoritmo y variable (SVG)
 - `estadisticas.json` — resumen numérico de anomalías detectadas
 - `comparativa_temporal/anomalias_comparativa_resumen.json` — comparación entre algoritmos
+- `comparativa_temporal/concordancia_metodos.json` — índices Jaccard y kappa de Cohen por par de métodos y variable
 
 ---
 
