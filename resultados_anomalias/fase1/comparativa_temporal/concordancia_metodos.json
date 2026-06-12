@@ -1,0 +1,106 @@
+{
+  "t2m": {
+    "IF_vs_FOD": {
+      "jaccard": 0.4,
+      "kappa": 0.5575,
+      "tp": 4,
+      "fp": 0,
+      "fn": 6,
+      "tn": 172
+    },
+    "IF_vs_AE": {
+      "jaccard": 0.0526,
+      "kappa": 0.0477,
+      "tp": 1,
+      "fp": 9,
+      "fn": 9,
+      "tn": 163
+    },
+    "FOD_vs_AE": {
+      "jaccard": 0.0769,
+      "kappa": 0.1151,
+      "tp": 1,
+      "fp": 9,
+      "fn": 3,
+      "tn": 169
+    }
+  },
+  "wind_speed": {
+    "IF_vs_FOD": {
+      "jaccard": 0.4,
+      "kappa": 0.5575,
+      "tp": 4,
+      "fp": 0,
+      "fn": 6,
+      "tn": 172
+    },
+    "IF_vs_AE": {
+      "jaccard": 0.1765,
+      "kappa": 0.2593,
+      "tp": 3,
+      "fp": 7,
+      "fn": 7,
+      "tn": 165
+    },
+    "FOD_vs_AE": {
+      "jaccard": 0.1667,
+      "kappa": 0.2626,
+      "tp": 2,
+      "fp": 8,
+      "fn": 2,
+      "tn": 170
+    }
+  },
+  "sp": {
+    "IF_vs_FOD": {
+      "jaccard": 0.0769,
+      "kappa": 0.1151,
+      "tp": 1,
+      "fp": 3,
+      "fn": 9,
+      "tn": 169
+    },
+    "IF_vs_AE": {
+      "jaccard": 0.0526,
+      "kappa": 0.0477,
+      "tp": 1,
+      "fp": 9,
+      "fn": 9,
+      "tn": 163
+    },
+    "FOD_vs_AE": {
+      "jaccard": 0.4,
+      "kappa": 0.5575,
+      "tp": 4,
+      "fp": 6,
+      "fn": 0,
+      "tn": 172
+    }
+  },
+  "tp": {
+    "IF_vs_FOD": {
+      "jaccard": 0.4167,
+      "kappa": 0.5687,
+      "tp": 5,
+      "fp": 2,
+      "fn": 5,
+      "tn": 170
+    },
+    "IF_vs_AE": {
+      "jaccard": 0.1765,
+      "kappa": 0.2593,
+      "tp": 3,
+      "fp": 7,
+      "fn": 7,
+      "tn": 165
+    },
+    "FOD_vs_AE": {
+      "jaccard": 0.2143,
+      "kappa": 0.3223,
+      "tp": 3,
+      "fp": 7,
+      "fn": 4,
+      "tn": 168
+    }
+  }
+}

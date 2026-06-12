@@ -30,6 +30,8 @@ Autoencoder temporal
     Salida: serie temporal (valid_time,) de scores y mascara.
 """
 
+import time
+import tracemalloc
 import json
 import csv
 import matplotlib
@@ -980,4 +982,11 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    tracemalloc.start()
+    _t0 = time.time()
     main()
+    _elapsed = time.time() - _t0
+    _, _peak = tracemalloc.get_traced_memory()
+    tracemalloc.stop()
+    print(f"\nTiempo de ejecución : {_elapsed:.1f} s")
+    print(f"Memoria pico        : {_peak / 1024 / 1024:.1f} MB")

@@ -1,7 +1,7 @@
 {
     "configuracion_origen": "config.json",
     "archivo_datos": "datos/era5_land_20240901_20241115.nc",
-    "fecha_analisis": "2026-05-01 15:31:03",
+    "fecha_analisis": "2026-05-30 19:10:07",
     "periodo": {
         "fecha_inicio": "01/09/2024",
         "fecha_fin": "15/11/2024"
@@ -186,5 +186,5 @@
         }
     },
     "estado": "completado",
-    "fecha_finalizacion": "2026-05-01 15:31:15"
+    "fecha_finalizacion": "2026-05-30 19:10:29"
 }

@@ -1,0 +1,146 @@
+[
+  {
+    "algoritmo": "IF temporal",
+    "configuracion": "contam=0.01, n=200",
+    "base": "",
+    "n_anomalias": 4,
+    "pct_anomalias": 2.2,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-11-13; 2024-11-28; 2024-11-29"
+  },
+  {
+    "algoritmo": "IF temporal",
+    "configuracion": "contam=0.03, n=200",
+    "base": "",
+    "n_anomalias": 6,
+    "pct_anomalias": 3.3,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-09-07; 2024-10-06; 2024-11-13; 2024-11-28; 2024-11-29"
+  },
+  {
+    "algoritmo": "IF temporal",
+    "configuracion": "contam=0.05, n=200",
+    "base": "base",
+    "n_anomalias": 10,
+    "pct_anomalias": 5.5,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-09-07; 2024-09-10; 2024-09-26; 2024-10-06; 2024-10-07; 2024-11-13; 2024-11-23; 2024-11-28; 2024-11-29"
+  },
+  {
+    "algoritmo": "IF temporal",
+    "configuracion": "contam=0.10, n=200",
+    "base": "",
+    "n_anomalias": 19,
+    "pct_anomalias": 10.44,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-09-02; 2024-09-06; 2024-09-07; 2024-09-08; 2024-09-09; 2024-09-10; 2024-09-12; 2024-09-26; 2024-10-01"
+  },
+  {
+    "algoritmo": "IF temporal",
+    "configuracion": "contam=0.05, n=100",
+    "base": "",
+    "n_anomalias": 10,
+    "pct_anomalias": 5.5,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-09-07; 2024-10-06; 2024-10-07; 2024-10-27; 2024-11-13; 2024-11-13; 2024-11-23; 2024-11-28; 2024-11-29"
+  },
+  {
+    "algoritmo": "IF temporal",
+    "configuracion": "contam=0.05, n=300",
+    "base": "",
+    "n_anomalias": 10,
+    "pct_anomalias": 5.5,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-09-07; 2024-09-10; 2024-09-26; 2024-10-06; 2024-10-07; 2024-11-13; 2024-11-23; 2024-11-28; 2024-11-29"
+  },
+  {
+    "algoritmo": "AR(1) FOD",
+    "configuracion": "z=1.5",
+    "base": "",
+    "n_anomalias": 30,
+    "pct_anomalias": 16.57,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-09-02; 2024-09-06; 2024-09-07; 2024-09-08; 2024-09-09; 2024-09-10; 2024-09-11; 2024-09-12; 2024-09-15"
+  },
+  {
+    "algoritmo": "AR(1) FOD",
+    "configuracion": "z=2.0",
+    "base": "",
+    "n_anomalias": 4,
+    "pct_anomalias": 2.21,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-01; 2024-11-13; 2024-11-28; 2024-11-29"
+  },
+  {
+    "algoritmo": "AR(1) FOD",
+    "configuracion": "z=2.5",
+    "base": "base",
+    "n_anomalias": 0,
+    "pct_anomalias": 0.0,
+    "detecta_dana": "NO",
+    "fechas_anomalas": ""
+  },
+  {
+    "algoritmo": "AR(1) FOD",
+    "configuracion": "z=3.0",
+    "base": "",
+    "n_anomalias": 0,
+    "pct_anomalias": 0.0,
+    "detecta_dana": "NO",
+    "fechas_anomalas": ""
+  },
+  {
+    "algoritmo": "AR(1) FOD",
+    "configuracion": "z=3.5",
+    "base": "",
+    "n_anomalias": 0,
+    "pct_anomalias": 0.0,
+    "detecta_dana": "NO",
+    "fechas_anomalas": ""
+  },
+  {
+    "algoritmo": "Autoencoder",
+    "configuracion": "H=[8,4,8], contam=0.05",
+    "base": "",
+    "n_anomalias": 10,
+    "pct_anomalias": 5.53,
+    "detecta_dana": "SÍ",
+    "fechas_anomalas": "2024-09-16; 2024-10-01; 2024-10-30; 2024-11-17; 2024-11-18; 2024-11-19; 2024-11-28; 2024-11-29; 2024-11-29; 2024-11-30"
+  },
+  {
+    "algoritmo": "Autoencoder",
+    "configuracion": "H=[16,6,16], contam=0.05",
+    "base": "base",
+    "n_anomalias": 10,
+    "pct_anomalias": 5.53,
+    "detecta_dana": "SÍ",
+    "fechas_anomalas": "2024-09-02; 2024-09-03; 2024-09-04; 2024-09-16; 2024-10-17; 2024-10-29; 2024-10-30; 2024-10-30; 2024-11-28; 2024-11-29"
+  },
+  {
+    "algoritmo": "Autoencoder",
+    "configuracion": "H=[32,10,32], contam=0.05",
+    "base": "",
+    "n_anomalias": 10,
+    "pct_anomalias": 5.53,
+    "detecta_dana": "NO",
+    "fechas_anomalas": "2024-09-02; 2024-09-03; 2024-09-08; 2024-09-21; 2024-09-22; 2024-10-10; 2024-10-23; 2024-11-19; 2024-11-29; 2024-11-30"
+  },
+  {
+    "algoritmo": "Autoencoder",
+    "configuracion": "H=[16,6,16], contam=0.03",
+    "base": "",
+    "n_anomalias": 6,
+    "pct_anomalias": 3.31,
+    "detecta_dana": "SÍ",
+    "fechas_anomalas": "2024-09-02; 2024-09-03; 2024-09-16; 2024-10-17; 2024-10-30; 2024-11-28"
+  },
+  {
+    "algoritmo": "Autoencoder",
+    "configuracion": "H=[16,6,16], contam=0.08",
+    "base": "",
+    "n_anomalias": 15,
+    "pct_anomalias": 8.29,
+    "detecta_dana": "SÍ",
+    "fechas_anomalas": "2024-09-02; 2024-09-03; 2024-09-04; 2024-09-16; 2024-10-01; 2024-10-17; 2024-10-23; 2024-10-26; 2024-10-29; 2024-10-30"
+  }
+]
